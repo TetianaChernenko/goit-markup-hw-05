@@ -3,7 +3,7 @@
 --secondary-color: #757575;
 --accent-color: #2196F3;
 --wite-color: #FFFFFF;
---logo-color:#000000;
+--logo-svg-color:#000000;
 --background-color: #F5F5F5;
 --background-secondary-color:#2F303A;
 --background-auxiliary-color:#F5F4FA;
@@ -73,7 +73,7 @@ img {
  }
 
 .logo {
-    color: var(--logo-color);
+    color: var(--logo-svg-color);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -766,4 +766,8 @@ img {
     border-radius: 50%;
     background:var(--wite-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.icon-close-button {
+    fill: var(--logo-svg-color);
 }
